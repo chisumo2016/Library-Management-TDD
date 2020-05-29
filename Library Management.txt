@@ -9,6 +9,10 @@ Book - CRUD
           a_book_can_be_added_to_the_library
           a_book_can_updated
 
+Book- Web root
+     Route::post('/books','BooksController@store');
+     Route::patch('/books/{book}','BooksController@update');
+
       -Validation
          a_title_is_required
          a_author_is_required
