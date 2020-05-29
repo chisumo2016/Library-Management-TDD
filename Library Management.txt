@@ -5,4 +5,10 @@ Library Management System
       <server name="DB_CONNECTION" value="sqlite"/>
       <server name="DB_DATABASE" value=":memory:"/>
 
-Book
+Book - CRUD
+          a_book_can_be_added_to_the_library
+          a_book_can_updated
+
+      -Validation
+         a_title_is_required
+         a_author_is_required
