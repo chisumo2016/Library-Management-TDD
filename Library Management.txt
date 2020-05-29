@@ -1,0 +1,8 @@
+Library Management System
+  - Installation of project
+  -Setup DB Connection sqlite
+  -touch database/database.sqlite
+      <server name="DB_CONNECTION" value="sqlite"/>
+      <server name="DB_DATABASE" value=":memory:"/>
+
+Book
